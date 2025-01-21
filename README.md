@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-npm install easy-ts
+npm install https://github.com/StumbDev/easy-ts.git
 ```
 
 ## Usage
