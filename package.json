@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "node postinstall.js"
   },
   "author": "Your Name",
   "license": "MIT",
@@ -16,6 +17,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@types/node": "^22.10.7"
+    "@types/node": "^22.10.7",
+    "shelljs": "^0.8.5"
   }
 }
